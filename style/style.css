@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-esteban  {
+    background: #F77F00;
+}
+
+/* .navbar-toggler-icon { 
+    background-image: url("../img/iconmonstr-menu-5-240.png") !important;
+} */
+html {
+    scroll-behavior: smooth;
+}
+nav a {
+    color: #113aa1 !important;
+}
+
+header nav ul{
+    margin-left: 63.9%;
+}
+nav a:hover {
+    color: #FCD900 !important;
+}
+.navbar-dark .navbar-toggler {
+    border:none !important;
+}
+.Sec1{
+    background: #EAE2B7;
+}
+.galeria{
+    width: 65%;
+    margin-left: 19%;
+    align-items: center;
+    z-index: 1;
+}
+
+.Sec2{
+    font-family: 'Bebas Neue', cursive;
+
+    background: #003049;
+    color: #fff;
+}
+
+/* From uiverse.io by @adamgiebl */
+.Sec2 button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    background: rgba(65, 105, 225, 0.548);
+    color: white;
+    padding: 0.3em 2em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    filter: blur();
+   }
+   
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+
+.Sec2 span{
+    margin-left: 30px;
+}
+
+.Sec3{
+    background: #FCBF49;
+}
+
+.Title_Sec3{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 2%;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.Sec4{
+    background: #EAE2B7;
+}
+
+.Sec5{
+    background: #003049;
+    color: #fff;
+}
+
+.Sec6{
+}
+
+.Sec6 .LastImg{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.social_media nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+
+.social_media nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.social_media{
+    margin-left: 20%;
+}
+
+.social_media nav ul li a span{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.icon-mail-envelope-closed{
+    margin-left: 100px;
+}
+
+.icon-instagram{
+    margin-left: 145px;
+}
+
+.icon-facebook{
+    margin-left: 80px;
+}
+
+.cell{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .mas_mil{
+        display: none;
+    }
+    .cell{
+        display: block;
+    }
+    .social_cell nav ul{
+        overflow: hidden;
+        list-style: none;
+    }
+    
+    .social_cell{
+        margin-left: 10%;
+    }
+    
+    .social_cell nav ul li a{
+        color: #000;
+        display: block;
+        text-decoration: none;
+    }
+    
+}
+/*
+#001E6C (primario)
+#035397 (secundario)
+#E8630A (terciario)
+#FCD900 (cuaternario)
+*/
